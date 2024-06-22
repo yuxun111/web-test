@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+			
+    background-image: url('11.jpg'); /* 替换为您自己的图片路径 */
+    background-size: cover; /* 使背景图片覆盖整个元素 */
+    background-repeat: no-repeat; /* 不重复背景图片 */
+    background-position: center center; /* 背景图片居中 */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align:left;
+    position: flex;
+    padding: 10px 20px;
+}
+
+  .interest {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    line-height:         1.9em;
+    font-style:          italic;
+    font-family:         'Courier New', Courier, monospace;
+    color:               #444444;
+    border: 1px solid #dddddd00;
+    border-radius: 5px;
+    background-color:    #a7cece;
+    padding:             15px;
+    position: relative;
+    background-image:    url(images/background.gif);
+    background-repeat:   no-repeat;
+    background-position: center;
+    text-align: center; 
+  }
+  
+  img{     
+    position:absolute;   
+    left:0px;
+    bottom:0px;
+    
+}
+
+  
+.interest-container {
+    width: 80%;
+
+    margin: 0 auto;
+    background-color: #5b585826;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    position: relative;
+}
+
+
+
+.interest h3 {
+    margin: 0 0 10px 0;
+}
+
+
+
+h1, h2{
+    margin: 0 0 20px 0;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.interest img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    position: flex;
+    padding: 10px 20px;
+}

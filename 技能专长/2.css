@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+    background-image: url('3.jpg'); /* 替换为您自己的图片路径 */
+    background-size: cover; /* 使背景图片覆盖整个元素 */
+    background-repeat: no-repeat; /* 不重复背景图片 */
+    background-position: center center; /* 背景图片居中 */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align:left;
+    position: flex;
+    padding: 10px 20px;
+}
+
+
+.image-column {
+    width: 90%; /* 根据需要设置具体的宽度 */
+}
+
+.image-column img {
+    
+  position: float;
+  float: right;
+    width: 25%; /* 根据需要设置具体的宽度 */
+    height: auto; /* 保持图片宽高比 */
+  
+    /*display: block; /* 去除图片默认的底部空白 */
+    margin-bottom: 10px; /* 图片之间的间距 */
+    
+  
+
+}
+
+.skills-container {
+    text-align: center; /* 水平居中文本 */
+    width: 60%;
+    margin: auto auto;
+    background-color: #9cd7da;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.skill {
+   position:static/*这里不能加分号才能保留框框，尝试了static，abusolute，relative，sticky，fixed等等，找不到需要的效果*/
+   display: inline; /* 设置文字为内联元素 */
+   vertical-align: middle; /* 垂直居中对齐 */
+    background-color: rgb(128, 192, 155);
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 32%; /* 设置宽度，使两个元素并排 */
+}
+
+/* 清除浮动 */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    clear: right;
+    background-color: #333;
+    color: white;
+ 
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    position: flex;
+    padding: 10px 20px;
+}

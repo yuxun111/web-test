@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介绍</title>
+    <style>
+	img{     
+  		position:absolute;   
+  		left:700px;
+  		top:250px;
+	}
+	
+	#sidebar {
+		 width: 150px; /* 设置边栏宽度 */
+    	background-color: #c2d7dc; /* 设置边栏背景颜色 */
+    	position: fixed; /* 固定边栏位置 */
+ 		top: 0; /* 从顶部开始 */
+    	left: 0; /* 从左侧开始 */
+    	height: 100%; /* 设置边栏高度 */
+  		overflow: auto; /* 允许边栏滚动 */
+		line-height: 50px;
+		padding-top:100px;
+		text-align: center; 
+	}
+
+	#content {
+    	margin-left: 150px; /* 为内容留出边栏宽度的空间 */
+	}
+
+	nav ul {
+    	list-style: none; /* 移除列表项前的标记 */
+    	padding: 0; /* 移除默认的内边距 */
+	}
+
+	nav li {
+    	background-color:#c2d7dc ; /* 设置列表项背景颜色 */
+    	padding: 10px; /* 设置列表项内边距 */
+}
+
+	nav li a {
+    	text-decoration: none; /* 移除链接下划线 */
+    	color: black; /* 设置链接颜色 */
+		display: block; /* 使链接占满整个列表项 */
+	}
+
+	nav li a:hover {
+    	background-color: #ddd; /* 鼠标悬停时改变背景颜色 */
+	}
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: transparent;
+			
+            background-image: url('OIP.jpg'); /* 替换为您自己的图片路径 */
+            background-size: cover; /* 使背景图片覆盖整个元素 */
+            background-repeat: no-repeat; /* 不重复背景图片 */
+            background-position: center center; /* 背景图片居中 */
+        
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+			position: sticky;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            background-color: transparent;
+            border-bottom: 1px solid #ddd;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+	<img src="6.jpg" width="30%" height="80%" />
+	<div id="sidebar">
+        <!-- 边栏导航区 -->
+        <nav>
+            <ul>
+               <li><a href="D:\web\实例操作\期末作业\兴趣爱好\3.html">个人简历</a></li>
+               <li><a href="#experience">技能专长</a></li>
+               <li><a href="#skills">兴趣爱好</a></li>
+               
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <h1>欢迎来到我的个人主页！</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2>基本信息</h2>
+            <p>姓名：竭家仪</p>
+            <p>年龄：20岁</p>
+			<p>学校：中南财经政法大学</p>
+			<p>班级：信管2202</p>
+        </section>
+        <section>
+            <h2>技能专长</h2>
+            <p>日语：日本语能力测试jlpt最高级n1</p>
+            <p>马术：法国马术协会galop1级</p>
+			<p>架子鼓：架子鼓八级证书</p>
+			<p>写作：曾撰写半架空网文15w字</p>
+        </section>
+      
+        <section>
+            <h2>兴趣爱好</h2>
+            <ul>
+               <li>动物</li>
+               <li>烘焙</li>
+               <li>游泳</li>
+            </ul>
+        </section>
+	
+       
+    </div>
+    <footer>
+        <p>&copy; web前端开发期末课程设计</p>
+    </footer>
+</body>
+</html>
